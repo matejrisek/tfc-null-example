@@ -1,7 +1,7 @@
 variable "bunch_of_resources" {
   description = "A bunch of names"
   type        = list(string)
-  default     = ["null1","null2","null3"]
+  default     = ["null1","null2","null3","null4","null5"]
 }
 
 terraform {
