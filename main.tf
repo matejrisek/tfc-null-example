@@ -12,6 +12,6 @@ terraform {
   }
 }
 
-resource "null_resource" "empty2" {
+resource "null_resource" "empty" {
     for_each = toset(var.bunch_of_resources)
 }
