@@ -1,4 +1,4 @@
-policy "policy1" {
+policy "policyX" {
   source            = "foo.sentinel"
   enforcement_level = "hard-mandatory"
 
